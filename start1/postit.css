@@ -1,0 +1,86 @@
+body {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 7em;
+  animation: attack 2s linear;
+}
+main h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 
+}
+  
+
+article {
+  width: 250px;
+  height: 200px;
+  border: none;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 13px 13px 33px -4px rgba(0, 0, 0, 0.59);
+  transition: all 1s;
+  
+}
+
+
+
+
+
+article:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.art1 {
+  background-color: #dfdfb4;
+  transform: rotate(354deg);
+  
+}
+
+.art2 {
+  background-color: #c2ecc4;
+  transform: rotate(4deg);
+}
+
+.art3 {
+  background-color: #bbbde0;
+  transform: rotate(350deg) translate(-1px, -20px);
+}
+
+.art4 {
+  background-color: #c2ecc4;
+  transform: rotate(15deg) translate(5px, -20px);
+}
+
+.art5 {
+  background-color: #dfdfb4;
+  transform: rotate(354deg);
+}
+
+.art6 {
+  background-color: #bbbde0;
+  transform: rotate(353deg);
+}
+
+.art7 {
+  background-color: #dfdfb4;
+  transform: rotate(353deg);
+}
+
+.art8 {
+  background-color: #c2ecc4;
+  transform: rotate(9deg);
+}
