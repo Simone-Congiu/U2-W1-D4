@@ -34,8 +34,29 @@ article {
   justify-content: center;
   align-items: center;
   box-shadow: 13px 13px 33px -4px rgba(0, 0, 0, 0.59);
-  transition: all 2s;
+  transition: all 1s;
   
+}
+
+
+@keyframes attack{
+  0%{
+    transform:perspective(300px) translateZ(150px);
+    opacity: 0;
+  }
+
+  50%{
+    transform:perspective(150px) translateZ(75px);
+    opacity: 0;
+    
+  }
+    
+  
+
+  100%{
+      transform: translateZ(0px);
+      opacity: 1;
+  }
 }
 
 
@@ -45,6 +66,33 @@ article {
 article:hover{
     transform: scale(1.2);
     z-index: 2;
+    
+}
+
+
+.wart1{
+  animation: attack 1s ;
+}
+.wart2{
+  animation: attack 2s ;
+}
+.wart3{
+  animation: attack 3s;
+}
+.wart4{
+  animation: attack 4s;
+}
+.wart5{
+  animation: attack 5s;
+}
+.wart6{
+  animation: attack 6s;
+}
+.wart7{
+  animation: attack 7s;
+}
+.wart8{
+  animation: attack 8s;
 }
 
 .art1 {
