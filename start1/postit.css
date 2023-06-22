@@ -1,9 +1,12 @@
+
+
 body {
-  background-color: grey;
+  background-color: grey; 
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family:'Times New Roman', Times, serif;
   
 }
 
@@ -13,12 +16,12 @@ main {
   align-items: center;
   flex-wrap: wrap;
   padding: 7em;
-  animation: attack 2s linear;
+  
 }
 main h2 {
   font-size: 1.8rem;
   font-weight: bold;
-  font-family: 
+
 }
   
 
@@ -31,7 +34,7 @@ article {
   justify-content: center;
   align-items: center;
   box-shadow: 13px 13px 33px -4px rgba(0, 0, 0, 0.59);
-  transition: all 1s;
+  transition: all 2s;
   
 }
 
